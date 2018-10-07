@@ -1,13 +1,65 @@
 <html>
 <head>
-#display image on top
+<a href="http://tinypic.com?ref=w9bt3p" target="_blank"><img src="http://i64.tinypic.com/w9bt3p.png" border="0" alt="Image and video hosting by TinyPic"></a>
 </head>
 
 <style>
 <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-<!-colors->
+<!--Fonts-->
+h3 {
+margin-left: 15px;
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+font-size: 45px;
+line-height: 30px;
+color:Black;
+}
+h4 {
+text-align:center;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 30px;
+line-height: 20px;
+color:Black;
+}
+h5 {
+text-align:center;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 24px;
+line-height: 18px;
+color:Black;
+p {
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 25px;
+margin-left: 2%;
+}
+
+<!--Button-->
+input.MyButton {
+font-family: 'Cabin',Helvetica, Arial, sans-serif;
+width: 150px;
+padding: 8px;
+cursor: pointer;
+font-weight: bold;
+font-size: 120%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color:DodgerBlue;
+background:White ;
+border: 1px solid #fff;
+}
+input.MyButton:active {
+color:DodgerBlue;
+background:Gray ;
+border: 1px solid #fff;
+}
+
+<!--colors-->
 .white {
     background-color:rgb(255, 255, 255);
     }
@@ -31,17 +83,16 @@
 <body>
 <h3>Welcome to iDonate</h3>
 
-#What
 <h3>What is iDonate?</h3>
 <p>iDonate is an application designed to streamline blood donation.</p>
 
-#Why?
 <h3>Why should I donate?</h3>
 <p>Blah</p>
 
-#To Questionaire
 <p>Interested in donating?</p>
-#Let's get started button
+<form action="/questionaire">
+  <input style="margin-left:388px" class="MyButton" value="Let's Get Started!" type="submit">
+</form>
 
 
 </body>
