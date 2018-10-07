@@ -1,1 +1,30 @@
+<html>
+<head>
+</head>
 
+<body>
+<h1>Please Input Your Appointment Information Here</h1>
+<p></p>
+<form action="/overview">
+<h4>Date:</h4>
+    <input style="margin-left:867px" value="date" name="userDate" placeholder="mm/dd/yy" type="text">
+
+<h4>Time:</h4>
+    <input style="margin-left:867px" value="time" name="userTime" placeholder="hh:mm" type="text">
+  <input type="checkbox" name="ToD" value="AM">AM<br>
+  <input type="checkbox" name="ToD" value="PM">PM<br>
+
+<h4>Location:</h4>
+    <input style="margin-left:867px" value="location" name="userLoc" placeholder="location" type="text">
+
+<h4>Type of Procedure:</h4>
+  <input type="checkbox" name="type" value="Blood">Whole Blood<br>
+  <input type="checkbox" name="type" value="Red">Power Red<br>
+  <input type="checkbox" name="type" value="Platelet">Platelet Donation<br>
+  <input type="checkbox" name="type" value="Plasma">Plasma Donation<br>
+
+<p>Click here when finished</p>
+<input class="MyButton" type="submit" value="Submit">
+</form>
+</body>
+</html>
