@@ -11,7 +11,6 @@ app.secret_key='w98fw9ef8hwe98fhwee'
 def render_main():
     return render_template('home.html')
 
-
 @app.route('/questionaire')
 def render_questionaire():
     return render_template('questionaire.html')
