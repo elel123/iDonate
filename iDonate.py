@@ -16,7 +16,6 @@ def render_main():
 def render_questionaire():
     return render_template('questionaire.html')
 
-'''
 @app.route('/eligibility') #displays if eligible
 def render_eligibility():
     return render_template('eligibility.html')
@@ -39,7 +38,7 @@ def render_notifications():
 
 @app.route('/hydrationtest')
 def render_hydrationtest():
-    return render_template('hydrationtest.html')'''
+    return render_template('hydrationtest.html')
 
 if __name__== "__main__":
     app.run(debug=False)
