@@ -1,4 +1,4 @@
-def recommendation():
+def recommendation(q1,q10):
     procedure1 = ""
     procedure2 = ""
     procedure3 = ""
