@@ -5,16 +5,18 @@ from flask import session
 
 app = Flask(__name__)
 #http://127.0.0.1:5000/
+app.secret_key='w98fw9ef8hwe98fhwee' 
 
 @app.route('/') #home page
 def render_main():
     return render_template('home.html')
 
-'''
+
 @app.route('/questionaire')
 def render_questionaire():
     return render_template('questionaire.html')
 
+'''
 @app.route('/eligibility') #displays if eligible
 def render_eligibility():
     return render_template('eligibility.html')
@@ -40,5 +42,5 @@ def render_hydrationtest():
     return render_template('hydrationtest.html')'''
 
 if __name__== "__main__":
-    app.run()
+    app.run(debug=False)
 
