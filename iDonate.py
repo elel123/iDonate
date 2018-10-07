@@ -20,23 +20,23 @@ def render_eligibility():
     return render_template('eligibility.html')
 
 @app.route('/procedures') #if eligible
-def render_questions():
+def render_procedure():
     return render_template('procedures.html')
 
 @app.route('/appointment')
-def render_questions():
+def render_appointment():
     return render_template('appointment.html')
 
 @app.route('/overview')
-def render_questions():
+def render_overview():
     return render_template('overview.html')
 
 @app.route('/notifications')
-def render_questions():
+def render_notifications():
     return render_template('notifications.html')
 
 @app.route('/hydrationtest')
-def render_questions():
+def render_hydrationtest():
     return render_template('hydrationtest.html')'''
 
 if __name__== "__main__":
