@@ -1,5 +1,6 @@
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <style>
@@ -70,8 +71,10 @@ color:Black;
 
 <form action="/action_page.php" method="get">
 <h4>Do you have menstruation cycles?</h4>
-  <input type="checkbox" name="q1" value="yes">Yes<br>
-  <input type="checkbox" name="q1" value="no">No<br>
+   <label>
+      <input type="checkbox" class="radio" value="1" name="fooby[1][]" />Yes</label>
+   <label>
+      <input type="checkbox" class="radio" value="1" name="fooby[1][]" />No</label>
 <h4>Do you have menstruation cycles?</h4>
   <input type="checkbox" name="q2" value="yes">Yes<br>
   <input type="checkbox" name="q2" value="no">No<br>
