@@ -1,13 +1,37 @@
 <html>
 <head>
-<a href="http://tinypic.com?ref=w9bt3p" target="_blank"><img src="http://i64.tinypic.com/w9bt3p.png" border="0" alt="Image and video hosting by TinyPic"></a>
+<div class="topbox lightgray">
+<img src="http://i64.tinypic.com/dlq4g8.jpg" border="0" style="height:60px; width:37px">
+<img src="http://i67.tinypic.com/2mynf2s.jpg" border="0" style="height:60px; width:195px">
+</div>
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <style>
-<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-<!--Fonts-->
+/*shapes*/ 
+.topbox {
+height: 80px;
+width: 1515px;
+}
+.smallbox {
+height: 70px;
+width: 1515px;
+}
+.textbox {
+height: 360spx;
+width: 1522px;
+}
+.thinline {
+height: 3px;
+width: 1515px;
+}
+.bottomline{
+width:1366px;
+width: 1515px;
+}
+    
+/*fonts*/ 
 h3 {
 margin-left: 15px;
 font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -23,11 +47,12 @@ line-height: 20px;
 color:Black;
 }
 h5 {
-text-align:center;
+margin-left: 15px;
 font-family: 'Cabin', Helvetica, Arial, sans-serif;
-font-size: 24px;
-line-height: 18px;
+font-size: 19px;
+line-height: 16px;
 color:Black;
+}
 p {
 font-family: 'Cabin', Helvetica, Arial, sans-serif;
 font-size: 15px;
@@ -35,67 +60,85 @@ line-height: 25px;
 margin-left: 2%;
 }
 
-<!--Button-->
+/*button*/ 
 input.MyButton {
 font-family: 'Cabin',Helvetica, Arial, sans-serif;
-width: 150px;
-padding: 8px;
+width: 165px;
+padding: 9px;
 cursor: pointer;
 font-weight: bold;
 font-size: 120%;
-background: #3366cc;
-color: #fff;
-border: 1px solid #3366cc;
+background: Black;
+color: White;
+border: 1px solid Black;
 border-radius: 10px;
 }
 input.MyButton:hover {
-color:DodgerBlue;
-background:White ;
-border: 1px solid #fff;
-}
-input.MyButton:active {
-color:DodgerBlue;
-background:Gray ;
-border: 1px solid #fff;
+color:White;
+background: rgb(102, 102, 102);
+border: 1px solid Black;
 }
 
-<!--colors-->
-.white {
-    background-color:rgb(255, 255, 255);
-    }
+/*colors*/ 
 .lightgray {
-    background-color:rgb(217, 217, 217);
-    }
-.medgray {
-    background-color:rgb(159,159,163);
-    }
+background-color:rgb(217, 217, 217);
+}
+.mediumgray {
+background-color:rgb(159,159,163);
+}
 .gray {
-    background-color:rgb(191, 191, 191);
-    }
-.darkGray {
-    background-color:rgb(102, 102, 102);
-    }
-.black {
-    background-color:rgb(0, 0, 0);
-    }
+background-color:rgb(191, 191, 191);
+}
+.darkgray {
+background-color:rgb(102, 102, 102);
+}
 .red {
-    background-color:rgb(230, 0, 0);
-    }
+background-color:rgb(230, 0, 0);
+}
 </style>
 
+
 <body>
+<br>
+<center>
 <h3>Welcome to iDonate</h3>
+</center>
+<br>
 
-<h3>What is iDonate?</h3>
-<p>iDonate is an application designed to streamline blood donation.</p>
+<div class="lightgray smallbox"></div>
 
-<h3>Why should I donate?</h3>
-<p>Blah</p>
+<h4>Purpose</h4>
+<h5 style="margin-left:285px">iDonate streamlines blood donation to increase the fluidity of donation day and encourage more people to donate.</h5>
+<br>
 
-<p>Interested in donating?</p>
+
+<div class="textbox mediumgray"><div class="thinline darkgray"></div>
+<h4 style="margin-right:1000px">Why should YOU donate?</h4>
+<ul>
+<li><h5> More than 25% of Americans will need blood, or know someone who will need blood, at least once <br>
+in their life. Giving blood now ensures your access to it in the future. Give back to the system. </h5></li>
+<li><h5> Be a LIVES saver! Every pint of blood saves 3 lives in the future! Premature babies, burn patients, <br>
+trauma victims, and cancer diagnosed children DEPEND on donations from people like you! </h5></li>
+<li><h5> Periodic blood donations reduce iron storages, which severely reduce chances of getting genetic <br>
+diseases such as hemochromatosis and heart attacks by 88%! </h5></li>
+<li><h5> Diminishes your chances of cardiovascular diseases and bone marrow disease, as well as lower your <br>
+risk of cancer and early mortality.</h5></li>
+</ul>
+<div class="thinline darkgray"></div></div>
+
+
+<br>
+
+<center>
+<h3 style="color:rgb(230, 0, 0)">Interested in donating?</h3>
 <form action="/questionaire">
-  <input style="margin-left:388px" class="MyButton" value="Let's Get Started!" type="submit">
+  <input class="MyButton" value="Let's Get Started!" type="submit">
 </form>
+</center>
+
+<div class="bottomline lightgray">
+</div>
+
 
 
 </body>
