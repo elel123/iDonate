@@ -1,13 +1,104 @@
 <html>
 <head>
-#display image on top
 </head>
 
 <style>
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<!--Button-->
+input.MyButton {
+font-family: 'Cabin',Helvetica, Arial, sans-serif;
+width: 150px;
+padding: 8px;
+cursor: pointer;
+font-weight: bold;
+font-size: 120%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color:DodgerBlue;
+background:White ;
+border: 1px solid #fff;
+}
+input.MyButton:active {
+color:DodgerBlue;
+background:Gray ;
+border: 1px solid #fff;
+}
+
+<!--Fonts-->
+
+h4 {
+text-align:center;
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+font-size: 26px;
+line-height: 20px;
+color:Black;
+}
+
+<!-colors->
+.white {
+    background-color:rgb(255, 255, 255);
+    }
+.lightgray {
+    background-color:rgb(217, 217, 217);
+    }
+.gray {
+    background-color:rgb(191, 191, 191);
+    }
+.darkGray {
+    background-color:rgb(102, 102, 102);
+    }
+.black {
+    background-color:rgb(0, 0, 0);
+    }
+.red {
+    background-color:rgb(230, 0, 0);
+    }
+
 </style>
 
 <body>
-#10 questions
+<!--10 questions-->
+
+<form action="/action_page.php" method="get">
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q1" value="yes">Yes<br>
+  <input type="checkbox" name="q1" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q2" value="yes">Yes<br>
+  <input type="checkbox" name="q2" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q3" value="yes">Yes<br>
+  <input type="checkbox" name="q3" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q4" value="yes">Yes<br>
+  <input type="checkbox" name="q4" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q5" value="yes">Yes<br>
+  <input type="checkbox" name="q5" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q6" value="yes">Yes<br>
+  <input type="checkbox" name="q6" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q7" value="yes">Yes<br>
+  <input type="checkbox" name="q7" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q8" value="yes">Yes<br>
+  <input type="checkbox" name="q8" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q9" value="yes">Yes<br>
+  <input type="checkbox" name="q9" value="no" checked="checked">No<br>
+<h4>Do you have menstruation cycles?</h4>
+  <input type="checkbox" name="q10" value="yes">Yes<br>
+  <input type="checkbox" name="q10" value="no" checked="checked">No<br>
+  
+<input class="MyButton" type="submit" value="Submit">
+</form>
 
 </body>
 
