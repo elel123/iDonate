@@ -1,4 +1,4 @@
-def questionareMessage():
+def questionareMessage(q1,q2,q3,q4,q5,q6,q7,q8,q9,q10):
     '''determines the messsage output based on their responses'''
     statementNotEligible = "Sorry, but you are not eligible to donate blood at this time. Please contact American Red Cross directly if you have further questions."
     statementEligible = "Congraulations! You are eligible to donate blood!"
