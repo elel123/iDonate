@@ -2,68 +2,104 @@
 <head>
 </head>
 
-<style>
+
 <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<!--Button-->
-input.MyButton {
-font-family: 'Cabin',Helvetica, Arial, sans-serif;
-width: 150px;
-padding: 8px;
-cursor: pointer;
-font-weight: bold;
-font-size: 120%;
-background: #3366cc;
-color: #fff;
-border: 1px solid #3366cc;
-border-radius: 10px;
+<style>
+/*shapes*/ 
+.topbox {
+height: 80px;
+width: 1515px;
 }
-input.MyButton:hover {
-color:DodgerBlue;
-background:White ;
-border: 1px solid #fff;
+.smallbox {
+height: 70px;
+width: 1515px;
 }
-input.MyButton:active {
-color:DodgerBlue;
-background:Gray ;
-border: 1px solid #fff;
+.textbox {
+height: 360spx;
+width: 1522px;
 }
-<!--Fonts-->
+.thinline {
+height: 3px;
+width: 1515px;
+}
+.bottomline{
+width:1366px;
+width: 1515px;
+}
+    
+/*fonts*/ 
+h3 {
+margin-left: 15px;
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+font-size: 45px;
+line-height: 30px;
+color:Black;
+}
 h4 {
 text-align:center;
-font-family: 'Raleway', Helvetica, Arial, sans-serif;
-font-size: 26px;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 30px;
 line-height: 20px;
 color:Black;
 }
-<!-colors->
-.white {
-    background-color:rgb(255, 255, 255);
-    }
+h5 {
+margin-left: 15px;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 19px;
+line-height: 16px;
+color:Black;
+}
+p {
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 25px;
+margin-left: 2%;
+}
+
+/*button*/ 
+input.MyButton {
+font-family: 'Cabin',Helvetica, Arial, sans-serif;
+width: 165px;
+padding: 9px;
+cursor: pointer;
+font-weight: bold;
+font-size: 120%;
+background: Black;
+color: White;
+border: 1px solid Black;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color:White;
+background: rgb(102, 102, 102);
+border: 1px solid Black;
+}
+
+/*colors*/ 
 .lightgray {
-    background-color:rgb(217, 217, 217);
-    }
-.medgray {
-    background-color:rgb(159,159,163);
-    }
+background-color:rgb(217, 217, 217);
+}
+.mediumgray {
+background-color:rgb(159,159,163);
+}
 .gray {
-    background-color:rgb(191, 191, 191);
-    }
-.darkGray {
-    background-color:rgb(102, 102, 102);
-    }
-.black {
-    background-color:rgb(0, 0, 0);
-    }
+background-color:rgb(191, 191, 191);
+}
+.darkgray {
+background-color:rgb(102, 102, 102);
+}
 .red {
-    background-color:rgb(230, 0, 0);
-    }
+background-color:rgb(230, 0, 0);
+}
 </style>
+
 
 <body>
 <!--10 questions-->
 
-<form action="/action_page.php" method="get">
+<form action="/" method="get">
+<p>Please mark only one answer per question.</p>
 <h4>Do you identify as female?</h4>
   <input type="checkbox" name="q2" value="yes">Yes<br>
   <input type="checkbox" name="q2" value="no">No<br>
@@ -101,11 +137,8 @@ color:Black;
   <input type="checkbox" name="q10" value="O-">O-<br>
   <input type="checkbox" name="q10" value="AB+">AB+<br>
   <input type="checkbox" name="q10" value="AB-">AB-<br>
-<h4>Have you donated before?</h4>
-  <input type="checkbox" name="q11" value="yes">Yes<br>
-  <input type="checkbox" name="q11" value="no">No<br>
-    
-<p>Click here when finished</p>
+
+<p>Press "Submit" when finished.</p>
 <input class="MyButton" type="submit" value="Submit">
 </form>
 
